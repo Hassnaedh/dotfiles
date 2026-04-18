@@ -1,0 +1,39 @@
+# ──────────────────────────────────────────────────────────────────────────────
+#  .gitconfig  —  managed by dotfiles
+#  Name and email are set by scripts/git.sh via git config --global
+# ──────────────────────────────────────────────────────────────────────────────
+
+[core]
+  editor        = nano
+  autocrlf      = input
+  excludesfile  = ~/.gitignore_global
+  whitespace    = trailing-space,space-before-tab
+
+[init]
+  defaultBranch = main
+
+[pull]
+  rebase = false
+
+[push]
+  autoSetupRemote = true
+
+[color]
+  ui = auto
+
+[alias]
+  st   = status
+  undo = reset --soft HEAD~1
+  lg   = log --oneline --graph --decorate --all
+  unstage = reset HEAD --
+  last = log -1 HEAD --stat
+  wip  = commit -am "wip: work in progress"
+
+[diff]
+  tool = default-difftool
+
+[merge]
+  conflictstyle = diff3
+
+[rerere]
+  enabled = true

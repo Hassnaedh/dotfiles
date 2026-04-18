@@ -1,0 +1,10 @@
+# .bashrc_extra — sourced from .bashrc on bash sessions
+# Add this line to your ~/.bashrc:  [ -f ~/.bashrc_extra ] && source ~/.bashrc_extra
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && source "$NVM_DIR/nvm.sh"
+
+export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+
+[ -f "$HOME/.aliases" ] && source "$HOME/.aliases"

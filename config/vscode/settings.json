@@ -1,0 +1,77 @@
+{
+  "editor.fontSize": 14,
+  "editor.tabSize": 4,
+  "editor.detectIndentation": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.rulers": [120],
+  "editor.wordWrap": "off",
+  "editor.minimap.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.snippetSuggestions": "top",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.inlineSuggest.enabled": true,
+
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "workbench.startupEditor": "none",
+
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.fontSize": 13,
+
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/vendor": true
+  },
+
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.tabSize": 4
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[blade]": {
+    "editor.defaultFormatter": "onecentlin.laravel-blade"
+  },
+
+  "intelephense.stubs": [
+    "apache", "bcmath", "bz2", "calendar", "Core", "ctype",
+    "curl", "date", "dom", "fileinfo", "filter", "gd", "hash",
+    "iconv", "intl", "json", "libxml", "mbstring", "mcrypt",
+    "mysql", "mysqli", "openssl", "pcntl", "pcre", "PDO",
+    "pdo_mysql", "Phar", "posix", "readline", "Reflection",
+    "session", "SimpleXML", "soap", "sodium", "SPL", "sqlite3",
+    "standard", "superglobals", "tokenizer", "xml", "xdebug",
+    "xmlreader", "xmlwriter", "yaml", "zip", "zlib", "redis"
+  ],
+
+  "php.validate.enable": false,
+  "php.suggest.basic": false,
+
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+  "prettier.trailingComma": "all",
+  "prettier.printWidth": 120,
+
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/vendor": true,
+    "**/.git": true
+  }
+}

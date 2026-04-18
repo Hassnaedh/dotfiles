@@ -1,0 +1,59 @@
+# ──────────────────────────────────────────────────────────────────────────────
+#  .aliases  —  managed by dotfiles
+# ──────────────────────────────────────────────────────────────────────────────
+
+# ── Navigation ────────────────────────────────────────────────────────────────
+alias ..="cd .."
+alias ...="cd ../.."
+alias ll="ls -lAh --color=auto"
+alias la="ls -A --color=auto"
+alias lt="ls -lAht --color=auto"   # Sort by time
+
+# ── Git ───────────────────────────────────────────────────────────────────────
+alias g="git"
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit"
+alias gp="git push"
+alias gl="git pull"
+alias gd="git diff"
+alias gco="git checkout"
+alias gb="git branch"
+alias glg="git log --oneline --graph --decorate --all"
+
+# ── PHP / Composer ────────────────────────────────────────────────────────────
+alias art="php artisan"                   # Laravel Artisan
+alias mfs="php artisan migrate:fresh --seed"
+alias phpunit="./vendor/bin/phpunit"
+alias pest="./vendor/bin/pest"
+alias pint="./vendor/bin/pint"
+alias c="composer"
+alias ci="composer install"
+alias cu="composer update"
+alias cr="composer require"
+alias cda="composer dump-autoload"
+
+# ── Node / npm ────────────────────────────────────────────────────────────────
+alias ni="npm install"
+alias nid="npm install --save-dev"
+alias nr="npm run"
+alias nrd="npm run dev"
+alias nrb="npm run build"
+alias yi="yarn install"
+alias yd="yarn dev"
+
+# ── VS Code ───────────────────────────────────────────────────────────────────
+alias c.="code ."
+
+# ── System ───────────────────────────────────────────────────────────────────
+alias update="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
+alias ports="ss -tulnp"
+alias myip="curl -s https://ifconfig.me"
+alias path='echo $PATH | tr ":" "\n"'
+
+# ── Docker (if installed) ─────────────────────────────────────────────────────
+alias dk="docker"
+alias dkc="docker compose"
+alias dku="docker compose up -d"
+alias dkd="docker compose down"
+alias dkl="docker compose logs -f"

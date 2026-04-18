@@ -1,0 +1,8 @@
+// keybindings.json — add your custom keybindings here
+// Reference: https://code.visualstudio.com/docs/getstarted/keybindings
+[
+  {
+    "key": "ctrl+shift+`",
+    "command": "workbench.action.terminal.toggleTerminal"
+  }
+]
